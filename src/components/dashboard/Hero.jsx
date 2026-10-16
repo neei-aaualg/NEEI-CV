@@ -1,5 +1,5 @@
 // Top of the home page: an introduction for first-time visitors, a compact header for people who already have CVs.
-import { ArrowDown, Sparkles } from "lucide-preact";
+import { ArrowDown } from "lucide-preact";
 import { PageThumb } from "../PageThumb.jsx";
 
 const STEPS = [
@@ -26,7 +26,6 @@ export function WelcomeHero({ previews, onStart }) {
   return (
     <section class="dash-hero dash-hero-welcome">
       <div class="dash-hero-text">
-        <span class="kicker"><Sparkles size={14} aria-hidden="true" />Uma ferramenta gratuita do NEEI</span>
         <h1>Cria um CV profissional em minutos</h1>
         <p class="lead">
           Escolhe um modelo, preenche as tuas experiências e descarrega um PDF pronto a enviar.

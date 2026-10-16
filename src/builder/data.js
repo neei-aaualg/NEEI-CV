@@ -21,7 +21,7 @@ export const SECTION_TYPES = {
   publications: { name: "Publicações", icon: "Newspaper", title: "Título da publicação", subtitle: "Editora", dates: "single", link: true, description: true },
   references: { name: "Referências", icon: "UserRound", title: "Nome", subtitle: "Cargo, Empresa", location: "Email / telefone", description: true },
   declaration: { name: "Declaração", icon: "PenLine", text: true },
-  custom: { label: "Outro", placeholder: "Outra informação", name: "Secção personalizada", icon: "Sparkles", title: "Título", subtitle: "Subtítulo", location: "Cidade, País", dates: "range", link: true, description: true },
+  custom: { label: "Outro", placeholder: "Outra informação", name: "Secção personalizada", icon: "Plus", title: "Título", subtitle: "Subtítulo", location: "Cidade, País", dates: "range", link: true, description: true },
 };
 
 export const SECTION_ORDER = Object.keys(SECTION_TYPES);
